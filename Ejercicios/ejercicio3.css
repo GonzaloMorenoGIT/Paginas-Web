@@ -1,0 +1,54 @@
+
+body{
+    padding: 1%;
+    font-size: 20px;
+}
+#titulo{
+    color: rgb(0, 116, 85);
+}
+strong{
+    color: red;
+}
+.destacado{
+    color: rgb(192, 192, 10);
+}
+#subtitulo{
+    color: blue;
+}
+a{
+    color: red;
+}
+em{
+color: blue;
+}
+caption{
+    color: blue;
+}
+table,td,th,tr{
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+.especial{
+    color: rgb(255, 196, 0);
+}
+th::scope {
+    color:red;
+}
+#adicional{
+    color: darkgreen;
+}
+#especial{
+    color:darkorchid
+}
+a.enlace{
+    color: rgb(9, 255, 0);
+}
+.Columnas{
+    color: red;
+}
+.resto{
+    color: green;
+}
+.especial1{
+    color: purple;
+}
