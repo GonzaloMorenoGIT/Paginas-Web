@@ -1,0 +1,8 @@
+.boton{
+	width: 161px;
+	height: 81px;
+	background-image: url("../img/boton2.jpg");
+}
+.boton:hover{
+	background-position: 161px 0px;
+}

@@ -1,0 +1,22 @@
+.menu{
+	list-style: none;	
+	width: 100px;	
+}
+li{
+	border: 1px solid black;
+	border-bottom: none;
+	padding: 5px;
+	text-align: center;
+	background-color: crimson;
+	color: white;
+}
+li:hover{
+	background-color: tomato;
+}
+li.ultimo{
+	border-bottom: 1px solid black;
+}
+
+a{
+	text-decoration: none;
+}

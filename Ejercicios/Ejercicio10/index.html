@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <style>
+        body {
+            padding: 1%;
+        }
+        .lista
+        {
+            list-style: none;
+            border: 1px solid black;
+            background-image: url(img/flecha_inactiva.png);
+            background-repeat: no-repeat;
+            background-position:10% 50%;
+            background-size: 25px;
+            display:block;
+            margin-right: 85%;
+            background-color: rgb(202, 202, 202);
+        }
+        .lista p{
+            text-align: center;
+            font-size: 15px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .lista:hover{
+            background-image: url(img/flecha_activa.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <ul class="lista-general">
+            <li class="lista"><p>Elemento 1</p></li>
+            <li class="lista"><p>Elemento 2</p></li>
+            <li class="lista"><p>Elemento 3</p></li>
+            <li class="lista"><p>Elemento 4</p></li>
+            <li class="lista"><p>Elemento 5</p></li>
+        </ul>
+    </div>
+</body>
+</html>

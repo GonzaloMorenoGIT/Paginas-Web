@@ -1,0 +1,35 @@
+.contenedor{
+	background-color: #ccc;	
+	overflow: hidden;
+	margin-right: 10px;
+}
+.icono{
+	width: 50px; height: 50px;
+	background-image: url("../img/arrows.png");	
+	background-size: 150px;	
+}
+.icono.izq{
+	float: left;
+	background-position: 50% 0%;
+}
+.icono.der{
+	float: right;	
+}
+.icono.izq:hover{
+	background-position: 100% 100%;
+}
+.icono.der:hover{
+	background-position: 100% 0%;
+}
+.circulo{
+	width: 50px;
+	height: 50px;
+	border: 25px dotted green;
+	border-radius: 50%;
+	border-top-color: yellow;
+	transition: all 4s;
+	margin: 0 auto;
+}
+.circulo:hover{
+	transform: rotate(360deg) scale(4);	
+}

@@ -1,0 +1,13 @@
+.cuadro{
+	width: 200px;	height: 200px;
+	border: 2px solid black;
+	text-align: center; line-height: 200px;
+	font-size: 40px;
+	background-color: yellow;	
+	box-shadow: 10px 10px 15px green;
+	border-radius: 50%;
+	margin: 100px;	
+}
+.cuadro:hover{
+
+}

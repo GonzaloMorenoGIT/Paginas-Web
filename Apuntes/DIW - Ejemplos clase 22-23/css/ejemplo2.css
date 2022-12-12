@@ -1,0 +1,31 @@
+div.btn{
+	width: 200px;
+	height: 100px;
+	border: 2px solid black;
+	border-radius: 15px;
+	color: white;
+	background-color: blue;
+	font-size: 20px;
+	text-align: center;
+	line-height: 100px;
+}
+div.btn:hover span::before{
+	content: url(../img/images.jpg);
+}
+ul li:hover::after{
+	content: url(../img/bola.png);
+}
+span[data-descripcion]{
+	color: blue;
+}
+span[data-descripcion]:hover::after{
+	content: attr(data-descripcion);
+	position: absolute;
+	top: 20px; left:20px; width: 200px;
+	border: 1px solid black;
+}
+p{ background-color: green; }
+li{
+	 border: 1px solid black;
+	 display: inline;
+ }

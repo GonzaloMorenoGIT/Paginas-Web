@@ -1,0 +1,14 @@
+.keko{
+	margin: 100px auto;
+	height: 233px;
+	background-image: url(../img/walk.png);
+	animation: caminar 0.00001s steps(14) infinite;
+}
+@keyframes caminar{
+	0%{
+		background-position: 1px 0px
+	}
+	100%{
+		background-position: -920px 0px;
+	}
+}

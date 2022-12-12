@@ -1,0 +1,16 @@
+*{ padding: 0px; 
+margin:0px;}
+#cabecera{	
+	width: 99%;	
+	border: 1px solid black;	
+	overflow: hidden;
+}
+.izq, .der{
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	background-color: blue;
+	color: white;
+}
+.izq{ float: left; }
+.der{ float: right; }
